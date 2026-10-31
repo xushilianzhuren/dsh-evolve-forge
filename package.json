@@ -1,0 +1,26 @@
+{
+  "name": "dsh-evolve-forge",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "进化炉插件：把错题四链、能力固化、能力沉淀、校准四炉写成常驻系统提示，并供错题查/立案、固化账、动作拦截工具。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

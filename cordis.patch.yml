@@ -1,0 +1,10 @@
+# 进化炉 · 插件化
+# 旧形态=四链错题官/能力固化器/手感结晶器（都写死 <workspace>，本机无此目录）。
+# 新形态=四炉条款常驻提示 + 台账直读与动作拦截工具，根目录自寻。
+- insert:
+    - id: ql-evolve
+      name: 'dsh-evolve-forge'
+      config:
+        enabled: true
+        order: 90
+        tool: true

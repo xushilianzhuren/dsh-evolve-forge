@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Evolution furnace">
+  <defs>
+    <linearGradient id="qe-fire" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#B91C1C"/>
+      <stop offset="0.6" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#FDE047"/>
+    </linearGradient>
+  </defs>
+  <path fill="#7C2D12" d="M14 34h36v16a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4z"/>
+  <path fill="url(#qe-fire)" d="M32 12c1.8 5.6 6 7.4 6 12.4 0 3.6-2.7 6.1-6 6.1s-6-2.5-6-6.1c0-3.4 2.4-5 3.8-8.4.7 1.8 1.4 2.2 1.9 1.7.6-.6.2-3.3.3-5.7z"/>
+  <rect x="20" y="38" width="24" height="4" rx="2" fill="#FBBF24" opacity="0.85"/>
+  <circle cx="44" cy="18" r="2.2" fill="#FCA5A5"/>
+  <circle cx="19" cy="24" r="1.7" fill="#FDBA74"/>
+  <circle cx="48" cy="30" r="1.5" fill="#FDE68A"/>
+</svg>
